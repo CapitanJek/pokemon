@@ -1,5 +1,6 @@
 // import {useState} from "react";
 import '../style/index.css'
+import {PokemonCards} from "../componets";
 function App() {
     // const [pokemon, setPokemon] = useState({})
     //
@@ -14,7 +15,7 @@ function App() {
     <>
         {/*<button onClick={getPokemon}>Start</button>*/}
         <div className='wrapper'>
-            <h1>Hello world</h1>
+            <PokemonCards/>
         </div>
     </>
   )
